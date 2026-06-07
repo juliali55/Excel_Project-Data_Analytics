@@ -22,7 +22,7 @@ The [dataset](./Excel_Project-Data_Analytics/Data.xlsx) used for this project in
 
 ## Building the Dashboard
 ### Job Title Bar Chart
-![job title graph](images/job_title_graph.png)
+<img src="images/job_title_graph.png" width="500">
 
 **Chart design choices:**
 - Horizontal bar chart to easily read job titles and compare salaries
@@ -46,7 +46,7 @@ The [dataset](./Excel_Project-Data_Analytics/Data.xlsx) used for this project in
 - Finds the median salary of all records that meet the requirements
 - Used to populate the table shown below, returning median salary for each job title based on the selected country and employment type
 
-![job title table](images/job_title_table.png)
+<img src="images/job_title_table.png" width="400">
 
 ### Country Map
 ![map graph gif](images/map_graph_gif.gif)
@@ -72,7 +72,7 @@ The [dataset](./Excel_Project-Data_Analytics/Data.xlsx) used for this project in
 - Finds the median salary of the country in column A where requirements are met
 
 ### Employment Type Bar Chart
-![employment type graph](images/employment_type_graph.png)
+<img src="images/employment_type_graph.png" width="400">
 
 **Graph design choices:**
 - Similar to the Job Title chart, salaries by employment type are easily identifiable
@@ -86,7 +86,7 @@ The [dataset](./Excel_Project-Data_Analytics/Data.xlsx) used for this project in
 - Also cleans the data, removing values that equal "0"
 - Outputs an array of cleaned employment-type values, shown in the table below
 
-![employment type table](images/employment_type_table.png)
+<img src="images/employment_type_table.png" width="300">
 
 ```
  (ISNUMBER(SEARCH(A2,jobs[job_schedule_type])))
@@ -110,13 +110,13 @@ The [dataset](./Excel_Project-Data_Analytics/Data.xlsx) used for this project in
 
 **Median Salary**
 
-![median salary kpi](images/median_salary_kpi.png)
+<img src="images/median_salary_kpi.png" width="250">
 
 - Utilizes `XLOOKUP()` to find where the selected job title matches the title in the salary table, then outputs the corresponding salary
 
 **Top Job Platform**
 
-![top platform kpi](images/top_platform_kpi.png)
+<img src="images/top_platform_kpi.png" width="250">
 
 ```=COUNTIFS(jobs[job_via],A2,jobs[job_title_short],title,jobs[job_country],country,jobs[job_schedule_type],type)```
 
@@ -125,7 +125,7 @@ The [dataset](./Excel_Project-Data_Analytics/Data.xlsx) used for this project in
 
 **Job Count**
 
-![job count kpi](images/job_count_kpi.png)
+<img src="images/job_count_kpi.png" width="255">
 
 ```
 =COUNT(
@@ -140,7 +140,7 @@ The [dataset](./Excel_Project-Data_Analytics/Data.xlsx) used for this project in
 - Checks the country, job title, and employment type, then counts the number of jobs that meet those requirements
 - Outputs values as shown below
 
-![job count table](images/job_count_table.png)
+<img src="images/job_count_table.png" width="350">
 
 - `XLOOKUP()` then used to find the job count of the user-selected job title
 
