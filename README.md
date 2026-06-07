@@ -4,7 +4,7 @@
 ## Introduction
 In this project, I developed an interactive Excel dashboard to analyze data job postings across different countries, job titles, and employment types. The dashboard allows users to explore salary trends, job availability, and hiring platforms based on dropdown inputs.
 
-Check out the Dashboard here: [Salary Dashboard](./Excel_Project-Data_Analytics/Salary_Dashboard.xlsx)
+Check out the Dashboard here: [Salary Dashboard](Salary_Dashboard.xlsx)
 
 ### Excel Skills Used
 The following Excel skills were used in this analysis:
@@ -13,7 +13,7 @@ The following Excel skills were used in this analysis:
 - **Charts and Data Visualization**: Built charts to easily identify trends in salary, geographic availability, and employment types.
 
 ### Jobs Dataset
-The [dataset](./Excel_Project-Data_Analytics/Data.xlsx) used for this project includes 32,673 real-world data job postings from 2023. It includes information on:
+The [dataset](Data.xlsx) used for this project includes 32,673 real-world data job postings from 2023. It includes information on:
 
 - Job titles
 - Salaries
